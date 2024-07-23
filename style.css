@@ -1,9 +1,7 @@
 body,
 html {
-  height: 100%;
-  margin: 0;
-  color: white;
-  background-color: grey;
+    margin: 0;
+    background-color: grey;
   
 }
 
@@ -98,10 +96,10 @@ html {
     
 }
 
-.main-header, .side-header {
+.main-header, .side-header, .trend-header {
     font-weight: 800;
-    text-align: left;
-    padding: 50px;
+    text-align: center;
+    
     
     
 }
@@ -109,6 +107,7 @@ html {
 .projects {
     grid-column: 1/2;
     display: grid;
+    height: 900px;
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(3, 1fr);
     padding: 50px;
@@ -116,46 +115,34 @@ html {
     
 }
 
-.card {
+.modal {
     background-color: #edede9;
     color: black;
     font-size: 16px;
-    padding: 50px;
+    height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-between;
     border-radius: 10px;
-    
-    
+    padding: 20px;
 }
 
-.card-ex {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1% 99%;
-    background-color: #edede9;
-    text-align: left;
-    border-radius: 10px;
+.modal-content {
     
 }
 
-.card-header {
-    grid-column: 2 / 3;
-    padding: 10px;
+.modal-footer {
+    display: flex;
+    gap: .5rem;
+    justify-content: flex-end;
 }
 
-.button-container {
-    grid-column: 2 / 3;
-    text-align: end;
-    padding: 10px;
-
-}
 
 .main-side {
     display: grid;
     grid-template-rows: 9fr 1fr 9fr;
     grid-template-columns: 1fr;
+    height: 900px;
     padding: 50px;
     gap: 1rem;
 }
@@ -163,25 +150,24 @@ html {
 .alert {
     background-color: #edede9;
     display: grid;
+    padding: 10px;
 }
 
-.trend-header {
-    text-align: left;
-    font-weight: 800;
-}
+
 
 .trending {
     background-color: #edede9;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
+    padding: 10px;
 
 }
 
 .announce {
    display: flex;
    flex-direction: column;
-   gap: 1rem;
-   align-items: flex-start;
+   
+   
 }
 
 .announce-text {
