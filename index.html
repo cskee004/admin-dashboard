@@ -8,46 +8,93 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="./node_modules/modern-normalize/modern-normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="container">
             <div class="header">
                 <div class="header-top">
-                    <div class="search-bar">Search bar</div>
-                    <ul>
-                        <li>link</li>
-                        <li>link</li>
-                        <li>link</li>
-                    </ul>
+                    <div class="search-bar">
+                        <form action="#">
+                            <button>
+                                <i style="font-size:24px" class="fa">&#xf002;</i>
+                            <input type="text" placeholder=""
+                                   name="search">
+                            </form>
+                    </div>
+                    <div class="notifications">
+                        <button>
+                            <i class="fa fa-bell" style="font-size: 36px"></i>
+                        </button>
+                        <button>
+                            <i class="fa fa-user" style="font-size:36px"></i>
+                        </button>
+                        <span>John Doe</span>
+                    </div>
                 </div>
                 <div class="header-btm">
-                    <div class="user-info">Profile link</div>
-                    <ul>
-                        <li>link</li>
-                        <li>link</li>
-                        <li>link</li>
-                    </ul>
+                    <div class="user-info">
+                        <button>
+                            <i class="fa fa-user" style="font-size:36px"></i>
+                        </button>
+                        <div class="welcome-message">
+                            <span>Hi there,</span>
+                            <div class="user-name">John Doe (@jon)</div>
+                        </div>
+                    </div>
+                    <div class="header-buttons">
+                        <button type="button">New
+                        <button type="button">Upload
+                        <button type="button">Share
+                    </div>
                 </div>
             </div>
             <div class="nav">
-                <div class="logo">Dashboard</div>
+                <div class="logo">
+                    <img src="./resources/icons/space_dashboard_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <span>Dashboard</span>
+                </div>
                 <div class="links">
-                    <ul>
-                        <li><img src="./resources/icons/home_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Home icon">Home</li>
-                        <li><img src="./resources/icons/account_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Profile icon">Profile</li>
-                        <li><img src="./resources/icons/mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Messages icon">Messages</li>
-                        <li><img src="./resources/icons/schedule_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="History icon">Hisotry</li>
-                        <li><img src="./resources/icons/task_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Task icon">Taks</li>
-                        <li><img src="./resources/icons/groups_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Groups icon">Communities</li>
-                      </ul>
+                    <a href="">
+                        <img src="./resources/icons/home_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        <span>Home</span>
+                    </a>
+                    <a href="">
+                        <img src="./resources/icons/person_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        <span>Profile</span>
+                    </a>
+                    <a href="">
+                        <img src="./resources/icons/mail_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        <span>Messages</span>
+                    </a>
+                    <a href="">
+                        <img src="./resources/icons/schedule_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        <span>History</span>
+                    </a>
+                    <a href="">
+                        <img src="./resources/icons/task_alt_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        <span>Tasks</span>
+                    </a>
+                    <a href="">
+                        <img src="./resources/icons/groups_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        <span>Communities</span>
+                    </a>
+                
+                
+                    <a href="">
+                        <img src="./resources/icons/settings_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        <span>Settings</span>
+                    </a>
+                    <a href="">
+                        <img src="./resources/icons/help_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        <span>Support</span>
+                    </a>
+                    <a href="">
+                        <img src="./resources/icons/admin_panel_settings_48dp_000000_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        <span>Privacy</span>
+                    </a>
                 </div>
-                <div class="settings">
-                    <ul>
-                        <li><img src="./resources/icons/settings_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Settings icon">Settings</li>
-                        <li><img src="./resources/icons/help_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Support icon">Support</li>
-                        <li><img src="./resources/icons/verified_user_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Privacy icon">Privacy</li>
-                    </ul>
-                </div>
+                
             </div>
             <div class="main">
                 <header class="main-header"><h2>Your projects</h2></header>
