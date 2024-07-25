@@ -1,7 +1,7 @@
 # Admin Dashboard Project
 The dashboard project was an exercise where I demonstrated the use of CSS Grid to create a basic page layout. This project is part of The Odin Project's intermediate HTML/CSS course.
 
-**Link to project:** https://cskee004.github.io/admin-dashboard/
+**Live preview:** https://cskee004.github.io/admin-dashboard/
 
 **Link to project instructions:** https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
 
