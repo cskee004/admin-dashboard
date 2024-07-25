@@ -80,7 +80,8 @@ input {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
+    padding: 5px;
     
 }
 
@@ -125,7 +126,7 @@ input {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
+    
     font-size: 24px;
     
 }
@@ -247,6 +248,7 @@ input {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    gap: 1rem;
     
 }
 
@@ -257,4 +259,8 @@ input {
 .pop-container {
     display: flex;
     flex-direction: column;
+}
+
+box-icon {
+    cursor: pointer;
 }
