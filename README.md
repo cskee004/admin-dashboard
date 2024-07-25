@@ -6,7 +6,7 @@ The dashboard project was an exercise where I demonstrated the use of CSS Grid t
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS Grid, CSS Flexbox, [Boxicons](https://github.com/atisawd/boxicons), [npm]https://www.npmjs.com/
+**Tech used:** HTML, CSS Grid, CSS Flexbox, [Boxicons](https://github.com/atisawd/boxicons), [npm](https://www.npmjs.com/)
 
 I began this project by drawing the layout by hand to get a better understanding of how I would organize each section with parent and child containers. My first goal was to use Grid to create the three main sections: header, nav, and main. Then, I used child Grid containers to break those sections down further. During this phase, I used lists to imitate the actual content in each section, later removing the lists. My next goal was to use Flexbox to style the finer details of each section. My final goal was to put the finishing touches on everything, including colors, fonts, icons, and shadows.
 
