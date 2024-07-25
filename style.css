@@ -3,7 +3,6 @@ html {
     margin: 0;
     background-color: grey;
     font-family: "Roboto", sans-serif;
-  
 }
 
 .container {
@@ -12,6 +11,7 @@ html {
     grid-template-columns: 1fr 8fr;
     grid-template-rows: 1fr 7fr;
     height: 100vh;
+    min-width: 1000px;
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -28,7 +28,6 @@ html {
 .header-top {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    
 }
 
 .search-bar {
